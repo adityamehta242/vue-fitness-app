@@ -1,8 +1,15 @@
+<script setup>
+import Welcome from "./components/pages/Welcome.vue"
+import Layout from "./components/layouts/Layout.vue";
+import Dashboard from "./components/pages/Dashboard.vue"
+</script>
+
 <template>
-  <h1>Test</h1>
+  <Layout>
+    <Welcome/>
+    <Dashboard/>
+  </Layout>
 </template>
 
-<script setup>
-</script>
 
 <style scoped></style>
